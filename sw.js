@@ -20,11 +20,11 @@ self.addEventListener('install', event => {
       
       './usuario.html' ,
 
-      'assets/img/fotos/rio-1.png',
+      'assets/img/fotos/rio-1.webp',
 
-      'assets/img/fotos/rio-2.png',
+      'assets/img/fotos/rio-2.webp',
 
-      'assets/img/fotos/rio-3.png',
+      'assets/img/fotos/rio-3.webp',
 
     ]);
   })());

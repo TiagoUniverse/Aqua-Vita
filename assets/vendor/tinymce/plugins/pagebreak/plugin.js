@@ -26,7 +26,7 @@
 
     const pageBreakClass = 'mce-pagebreak';
     const getPlaceholderHtml = shouldSplitBlock => {
-      const html = `<img src="${ global.transparentSrc }" class="${ pageBreakClass }" data-mce-resize="false" data-mce-placeholder />`;
+      const html = `<img loading="lazy" src="${ global.transparentSrc }" class="${ pageBreakClass }" data-mce-resize="false" data-mce-placeholder />`;
       return shouldSplitBlock ? `<p>${ html }</p>` : html;
     };
     const setup$1 = editor => {

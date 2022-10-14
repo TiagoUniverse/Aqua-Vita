@@ -24543,7 +24543,7 @@
       editor.undoManager.extra(() => {
         pasteHtmlFn(editor, url);
       }, () => {
-        editor.insertContent('<img src="' + url + '">');
+        editor.insertContent('<img loading="lazy" src="' + url + '">');
       });
       return true;
     };
@@ -24627,7 +24627,7 @@
         const blobCache = editor.editorUpload.blobCache;
         const existingBlobInfo = blobCache.getByData(base64, type);
         const blobInfo = existingBlobInfo !== null && existingBlobInfo !== void 0 ? existingBlobInfo : createBlobInfo(editor, blobCache, file, base64);
-        pasteHtml(editor, `<img src="${ blobInfo.blobUri() }">`, false);
+        pasteHtml(editor, `<img loading="lazy" src="${ blobInfo.blobUri() }">`, false);
       });
     };
     const isClipboardEvent = event => event.type === 'paste';
