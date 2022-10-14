@@ -5,61 +5,20 @@ self.addEventListener('install', event => {
   event.waitUntil((async () => {
     const cache = await caches.open(CACHE_NAME);
     cache.addAll([
-      './index.html' ,
 
       './adicionar.html' ,
-
-      './login.html' ,
-
-      './charts-chartjs.html' ,
-
-      './charts-echarts.html' ,
 
       './dashboards.html' ,
 
       './graficos.html' ,
 
-      './grf-teste.html' ,
+      './index.html' ,
+
+      './login.html' ,
 
       './mapa.html' ,
-
-      './registrar.html' ,
-
+      
       './usuario.html' ,
-
-      './forms/contact.php' ,
-
-      './pwabuilder-sw/pwabuilder-sw-register.js' ,
-      
-      './pwabuilder-sw/pwabuilder-sw.js' ,
-      
-      'assets/css/cards.css' ,
-
-      'assets/css/style.css' ,
-
-      'assets/img/fotos/rio-1.png',
-      'assets/img/fotos/rio-2.png',
-      'assets/img/fotos/rio-3.png',
-
-      'assets/img/apple-touch-icon.png',
-      'assets/img/favicon.png',
-      'assets/img/inserir-img.png',
-      'assets/img/logo.png',
-
-      'assets/img/icons/29.png',
-      'assets/img/icons/40.png',
-      'assets/img/icons/57.png',
-      'assets/img/icons/58.png',
-      'assets/img/icons/60.png',
-      'assets/img/icons/80.png',
-      'assets/img/icons/114.png',
-      'assets/img/icons/120.png',
-      'assets/img/icons/180.png',
-      'assets/img/icons/1024.png',
-
-      'assets/img/icons/map-solid.svg',
-      'assets/img/icons/plus-solid.svg',
-      'assets/img/icons/user-solid.svg',
     ]);
   })());
 });
