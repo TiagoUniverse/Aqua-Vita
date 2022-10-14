@@ -19,6 +19,13 @@ self.addEventListener('install', event => {
       './mapa.html' ,
       
       './usuario.html' ,
+
+      'assets/img/fotos/rio-1.png',
+
+      'assets/img/fotos/rio-2.png',
+
+      'assets/img/fotos/rio-3.png',
+
     ]);
   })());
 });
