@@ -9,8 +9,30 @@
   "short_name": "Aqua Vita",
   "start_url": "index.html",
   "theme_color": "#ffffff",
-  "categories": [],
-  "screenshots": [],
+  "categories": [
+    "business",
+    "navigation",
+    "personalization",
+    "productivity",
+    "security",
+    "utilities"
+  ],
+  "screenshots": [
+    {
+      "src": "https://relaxed-elf-1d5cf3.netlify.app/assets/img/screenshots/index.webp",
+      "sizes": "1903x961",
+      "type": "image/webp",
+      "platform": "wide",
+      "label": "Homescreen of Aqua Vita"
+    },
+    {
+      "src": "https://relaxed-elf-1d5cf3.netlify.app/assets/img/screenshots/map.webp",
+      "sizes": "1895x969",
+      "type": "image/webp",
+      "platform": "wide",
+      "label": "Map of the rivers registered"
+    }
+  ],
   "icons": [
     {
       "src": "https://relaxed-elf-1d5cf3.netlify.app/assets/img/icons/maskable_icons/maskable_icon_x48.png",
@@ -52,7 +74,7 @@
       "src": "https://relaxed-elf-1d5cf3.netlify.app/assets/img/icons/maskable_icons/maskable_icon.png",
       "sizes": "500x500",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
     },
     {
       "src": "https://relaxed-elf-1d5cf3.netlify.app/assets/icons/29.png",
@@ -110,5 +132,8 @@
       "type": "image/png"
     }
   ],
-  "shortcuts": []
+  "shortcuts": [],
+  "lang": "pt",
+  "iarc_rating_id": "18",
+  "prefer_related_applications": false
 }
