@@ -1,0 +1,8 @@
+Version 2.0:
+  -Tela de cadastro criada.
+  -Tela de usuario criada.
+  -Tela de adiÇão de mapas refeita.
+  -Links entre as telas refeitos.
+  -Cards corrigidos.
+  -Corrigida barra de navegação das telas de usuario e adicionar.
+  -Removido icone de pesquisa das telas de usuario e adicionar.

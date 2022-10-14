@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gráficos teste</title>
+    <link href="assets/css/cards.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Play' rel='stylesheet' />
+
+    <link rel="manifest" href="manifest.json">
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+    <script>
+
+        google.charts.load('current', { 'packages': ['corechart'] });
+
+        function desenharPizza() {
+            var tabela_temp = new google.visualization.DataTable();
+            tabela_temp.addColumn('string', 'Meses');
+            tabela_temp.addColumn('number', 'Temperatura');
+            tabela_temp.addRows([
+                ['Janeiro', 20],
+                ['Fevereiro', 26],
+                ['Março', 25],
+                ['Abril', 22],
+                ['Maio', 23],
+                ['Junho', 21],
+                ['Julho', 22]
+            ]);
+
+            var opcoes = {
+                'title': 'Tipos de Gastos',
+                'height': 300,
+                'width': 400
+
+
+            };
+
+            var grafico = new google.visualization.PieChart(document.getElementById('grfPizza'));
+            grafico.draw(tabela_temp);
+        }
+        google.charts.setOnLoadCallback(desenharPizza);
+    </script>
+
+
+
+</head>
+
+<body>
+
+
+    <header>
+        <div class="cabecalho">
+            <div class="topo">
+                <div class="logo-menor">
+                    <img src="assets\img\logo.png" alt="Logo AquaVita">
+                </div>
+
+
+                <div class="titulo-dashboards">
+                    <h1>Nome do Rio/Reservatório</h1>
+                    <h2>Endereço</h2>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <ul>
+        <li>
+            <div id="grfPizza"></div>
+        </li>
+
+    </ul>
+
+    <nav>
+
+        <div class="navbar">
+            <div class="mapa">
+                <a href="mapa.html">
+                    <img src="assets\img\svg\mapicon.svg">
+                </a>
+            </div>
+            <div class="cancelar">
+                <!--cancelar-->
+                <a href="index.html">
+                    <img src="assets\img\svg\addicon.svg"></a>
+            </div>
+            <div class="usuario">
+                <a href="usuario.html">
+                    <img src="assets\img\svg\usericon.svg">
+                </a>
+            </div>
+        </div>
+    </nav>
+</body>
+
+<script>
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js', { scope: '/' });
+    }
+</script>
+
+</html>

@@ -1,0 +1,72 @@
+{
+  "background_color": "#ffffff",
+  "description": "O projeto visa facilitar o monitoramento da qualidade da água em rios e reservatórios através de uma aplicativo mobile, permitindo a utilização em diversos locais. Permitirá a visualização dos dados fornecidos em dashboards de diferentes tipos, facilitando assim o uso dos dados.",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Aqua Vita",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "Aqua Vita",
+  "start_url": "index.html",
+  "theme_color": "#ffffff",
+  "categories": [],
+  "screenshots": [],
+  "icons": [
+    {
+        "src": "https://relaxed-elf-1d5cf3.netlify.app/assets/icons/29.png",
+        "sizes": "29x29",
+        "type": "image/png"
+      },
+      {
+        "src": "https://relaxed-elf-1d5cf3.netlify.app/assets/icons/40.png",
+        "sizes": "40x40",
+        "type": "image/png"
+      },
+      {
+        "src": "https://relaxed-elf-1d5cf3.netlify.app/assets/icons/57.png",
+        "sizes": "57x57",
+        "type": "image/png"
+      },
+      {
+        "src": "https://relaxed-elf-1d5cf3.netlify.app/assets/icons/58.png",
+        "sizes": "58x58",
+        "type": "image/png"
+      },
+      {
+        "src": "https://relaxed-elf-1d5cf3.netlify.app/assets/icons/60.png",
+        "sizes": "60x60",
+        "type": "image/png"
+      },
+      {
+        "src": "https://relaxed-elf-1d5cf3.netlify.app/assets/icons/80.png",
+        "sizes": "80x80",
+        "type": "image/png"
+      },
+      {
+        "src": "https://relaxed-elf-1d5cf3.netlify.app/assets/icons/87.png",
+        "sizes": "87x87",
+        "type": "image/png"
+      },
+      {
+        "src": "https://relaxed-elf-1d5cf3.netlify.app/assets/icons/114.png",
+        "sizes": "114x114",
+        "type": "image/png"
+      },
+      {
+        "src": "https://relaxed-elf-1d5cf3.netlify.app/assets/icons/120.png",
+        "sizes": "120x120",
+        "type": "image/png"
+      },
+      {
+        "src": "https://relaxed-elf-1d5cf3.netlify.app/assets/icons/180.png",
+        "sizes": "180x180",
+        "type": "image/png"
+      },
+      {
+        "src": "https://relaxed-elf-1d5cf3.netlify.app/assets/icons/1024.png",
+        "sizes": "1024x1024",
+        "type": "image/png"
+      }
+  ],
+  "shortcuts": []
+}

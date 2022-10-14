@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pagina dos rios</title>
+  <link href="assets/css/cards.css" rel="stylesheet">
+  <link rel="manifest" href="manifest.json">
+
+</head>
+
+<body>
+  <header>
+  </header>
+
+
+  <div class="logo-menor">
+    <img src="assets\img\logo.png" alt="Logo AquaVita">
+  </div>
+
+  <div class="espacinho"></div>
+  <div class="espacinho-menor"></div>
+
+  
+    <div class="fotorio">
+        <img src="assets\img\inserir-img.jpeg" alt="Foto do perfil">
+        <p>(Insira sua foto)</p>
+    </div>
+
+  <div class="espacinho-menor"></div>
+  <form class="row g-3 needs-validation" novalidate>
+
+    <div class="dadosperfil">
+      <div>
+        <a>Nome do rio / reservatório</a>
+        <input class="input-add" type="text" name="rio">
+      </div>
+      <div>
+        <a>Endereço</a>
+        <input class="input-add" type="text" name="rio">
+      </div>
+      <Div>
+        <a>Latitude</a>
+        <input class="input-add" type="text" name="rio">
+      </Div>
+      <div>
+        <a>Longitude</a>
+        <input class="input-add" type="text" name="rio">
+      </div>
+    </div>
+
+    <div class="espacinho">
+    </div>
+
+    <div class="botoesperfil">
+      <a href="index.html"><button class="botao-salvar" type="button">
+          <p>Salvar</p>
+        </button>
+      </a>
+    </div>
+  </form>
+
+
+  <div class="espacinho">
+  </div>
+
+
+  <nav>
+    <div class="navbar">
+      <div class="mapa">
+        <a href="mapa.html">
+          <img src="assets\img\svg\mapicon.svg">
+        </a>
+      </div>
+      <div class="cancelar">
+        <a href="index.html">
+          <img src="assets\img\svg\addicon.svg"></a>
+      </div>
+      <div class="usuario">
+        <a href="usuario.html">
+          <img src="assets\img\svg\usericon.svg">
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js', { scope: '/' });
+    }
+  </script>
+
+</body>
+
+</html>
