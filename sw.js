@@ -70,3 +70,17 @@ self.addEventListener('sync', event => {
       event.waitUntil(doTheWork());
   }
 });
+
+
+// periodic sync
+async function registerPeriodicSync() {
+  await registration.periodicSync.register('get-daily-news', {
+      minInterval: 24 * 60 * 60 * 1000
+  });
+}
+
+self.addEventListener('periodicsync', event => {
+  if (event.tag === 'get-daily-news') {
+      event.waitUntil(getDailyNewsInCache());
+  }
+});
