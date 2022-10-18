@@ -1,0 +1,44 @@
+.navbar {
+    display: flex;
+    gap: 10vh;
+    justify-content: center;
+    position: fixed;
+    border-top-left-radius: 5vw;
+    border-top-right-radius: 5vw;
+    background-color: #0367a6;
+    height: 6vh;
+    width: 100vw;
+    bottom: -1px;
+    left: 0%;
+}
+
+.mapa {
+    height: 6vh;
+    display: flex;
+    align-items: center;
+}
+
+.cartoes {
+    height: 6vh;
+    display: flex;
+    align-items: center;
+}
+
+.usuario {
+    height: 6vh;
+    display: flex;
+    align-items: center;
+}
+
+.mapa img {
+    height: 60%;
+}
+
+.cartoes img {
+    height: 60%;
+    
+}
+
+.usuario img {
+    height: 55%;
+}
