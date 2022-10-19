@@ -125,35 +125,9 @@ body {
 .mapaiframe iframe {
     width: 100%;
     height: 96%;
-    position: absolute;
+    position: fixed;
     top: -1px;
     left: 0px;
-}
-
-.topbar .barradepesquisa input {
-    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
-    font-size: 2.5vh;
-    font-weight: 100;
-    width: 82vw;
-    height: 4vh;
-    margin-top: 1.5vh;
-    margin-left: 3vw;
-    border: 20px;
-    border-radius: 10px;
-    background: none;
-    background-color: #ffffff;
-    color: #000000;
-    float: left;
-    padding: 10px;
-    box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
-}
-
-.topbar .barradepesquisa img {
-    width: 4vh;
-    height: 4vh;
-    margin-top: 1.5vh;
-    margin-right: 3vw;
-    float: right;
 }
 
 .pagperfil  {
@@ -241,9 +215,16 @@ body {
     top: -30.7vh;
     box-shadow: 0px -80px 20px 0px rgba(0, 0, 0, 0.5) inset;
 }
+
+.dashboard-img {
+    position: relative
+}
 .dashboard-img img{
     width: 100%;
+    height: 100%;
     object-fit: cover;
+    position: relative;
+    aspect-ratio: 16/9;
 }
 
 .nome span{
@@ -278,6 +259,7 @@ body {
     display: flex;
     justify-content: center;
 }
+
 
 
 /*Adicionar*/
@@ -369,5 +351,20 @@ body {
     display: flex;
     justify-content: center;
     margin-bottom: 2vh;
-   
+}
+
+.grf-box:first-child{
+    margin-top: 6vh;
+}
+
+
+.ajudaparagrafo p {
+    font-family: Play, Geneva, Tahoma, sans-serif;
+    font-size: 6vw;
+    text-align: center;
+}
+
+.descricaoparagrafo p{
+    font-family: Play, Geneva, Tahoma, sans-serif;
+    font-size: 4vw;
 }

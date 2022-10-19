@@ -5,9 +5,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="mapa" content="width=device-width, initial-scale=1.0">
-  
+
   <meta name="description" content="Página de exibição do mapa com todos os rios cadastrados">
-  <meta name="theme-color" content="#ffffff"/>
+  <meta name="theme-color" content="#ffffff" />
   <link rel="apple-touch-icon" href="/assets/icons/58.png">
   <link rel="stylesheet" href="assets\css\cards.css">
   <link rel="stylesheet" href="assets\css\navbar.css">
@@ -31,20 +31,31 @@
 </body>
 <nav>
   <div class="navbar">
-          <div class="mapa">
-              <img src="assets\icons\mapaescuro.svg" alt="mapa">
-          </div>
-      <a href="indexteste.html">
-          <div class="cartoes">
-              <img src="assets\icons\cartõesbranco.svg" alt="cartões">
-          </div>
-      </a>
-      <a href="usuario.html">
-          <div class="usuario">
-              <img src="assets\icons\usuariobranco.svg" alt="usuario">
-          </div>
-      </a>
+    <div class="mapa">
+      <img loading="lazy" src="assets\icons\mapaescuro.svg" width="34" height="31" alt="mapa">
+    </div>
+    <a href="indexteste.html">
+      <div class="cartoes">
+        <img loading="lazy" src="assets\icons\cartõesbranco.svg" width="34" height="31" alt="cartões">
+      </div>
+    </a>
+
+    <a href="usuario.html">
+      <div class="usuario">
+        <img loading="lazy" src="assets\icons\usuariobranco.svg" width="34" height="31" alt="usuario">
+      </div>
+    </a>
   </div>
+  <div class="escala">
+    <div id="wrap">
+      <img src="assets\icons\pesquisa.svg" alt="pesquisa">
+      <form action="" autocomplete="on">
+        <input id="search" name="search" type="text" placeholder="Rio Capibaribe"><input id="search_submit"
+          value="Rechercher" type="submit">
+      </form>
+    </div>
+  </div>
+
 </nav>
 
 </html>

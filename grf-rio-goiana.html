@@ -9,7 +9,7 @@
     <title>Gráficos</title>
     <link href="assets/css/cards.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Play' rel='stylesheet' />
-
+    <link rel="stylesheet" href="assets\css\navbar.css">
     <link rel="manifest" href="manifest.json">
 
 
@@ -28,97 +28,85 @@
         </div>
     </div>
 
+
+
+    <div class="grf-container">
+        <div class="grf-box">
+            <h4>Potencial Hidrogênico</h4>
+            <canvas id="goiana-nivel-ph"></canvas>
+        </div>
+    </div>
+
+    <div class="grf-container">
+        <div class="grf-box">
+            <h4>Oxigênio Dissolvido</h4>
+            <canvas id="goiana-oxi-dissolvido"></canvas>
+        </div>
+    </div>
+    
     <div class="grf-container">
         <div class="grf-box">
             <h4>Temperatura</h4>
-            <canvas id="temperatura"></canvas>
+            <canvas id="goiana-temperatura"></canvas>
         </div>
-
     </div>
-    <div class="espacinho">
+
+
+    <div class="grf-container">
+        <div class="grf-box">
+            <h4>Condutividade</h4>
+            <canvas id="goiana-condutividade"></canvas>
+        </div>
+    </div>
+ 
+
+    <div class="grf-container">
+        <div class="grf-box">
+            <h4>Salinidade</h4>
+            <canvas id="goiana-salinidade"></canvas>
+        </div>
     </div>
 
     <div class="grf-container">
         <div class="grf-box">
             <h4>Turbidez</h4>
-            <canvas id="turbidez"></canvas>
+            <canvas id="goiana-turbidez"></canvas>
         </div>
     </div>
 
-    </div>
     <div class="espacinho">
     </div>
 
-    <div class="grf-container">
-        <div class="grf-box">
-            <h4>Nivel de pH</h4>
-            <canvas id="nivel-ph"></canvas>
-        </div>
-    </div>
-
-    </div>
-    <div class="espacinho">
-    </div>
-
-    <div class="grf-container">
-        <div class="grf-box">
-            <h4>Oxigênio dissolvido</h4>
-            <canvas id="oxi-dissolvido"></canvas>
-        </div>
-    </div>
-
-    </div>
-    <div class="espacinho">
-    </div>
-
-    <div class="grf-container">
-        <div class="grf-box">
-            <h4>Condutividade</h4>
-            <canvas id="condutividade"></canvas>
-        </div>
-    </div>
-
-    </div>
-    <div class="espacinho">
-    </div>
-
-    <div class="grf-container">
-        <div class="grf-box">
-            <h4>Salinidade</h4>
-            <canvas id="salinidade"></canvas>
-        </div>
-    </div>
 
 
 
 
 
-
-    <div class="espacinho">
-    </div>
+    
 
     <nav>
         <div class="navbar">
-            <div class="mapa">
-                <a href="mapa.html">
-                    <img src="assets\img\svg\mapicon.svg">
-                </a>
-            </div>
-            <div class="adicionar">
-                <a href="adicionar.html">
-                    <img src="assets\img\svg\addicon.svg"></a>
-            </div>
-            <div class="usuario">
-                <a href="usuario.html">
-                    <img src="assets\img\svg\usericon.svg">
-                </a>
-            </div>
+            <a href="mapa.html">
+                <div class="mapa">
+                    <img loading="lazy" src="assets\icons\mapabranco.svg" width="34" height="31" alt="mapa">
+                </div>
+            </a>
+            <a href="indexteste.html">
+                <div class="cartoes">
+                    <img src="assets\icons\cartõesbranco.svg" alt="cartões">
+                </div>
+            </a>
+            <a href="usuario.html">
+                <div class="usuario">
+                    <img loading="lazy" src="assets\icons\usuariobranco.svg" width="34" height="31" alt="usuario">
+                </div>
+            </a>
         </div>
     </nav>
 </body>
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
-<script src="graficos.js"></script>
+<script src="graficos js/grf-goiana.js"></script>
 
 <script>
     if ('serviceWorker' in navigator) {

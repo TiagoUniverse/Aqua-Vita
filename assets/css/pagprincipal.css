@@ -27,10 +27,12 @@
     border-top-right-radius: 3vw;
 }
 .cardimagem b {
+    font-family: play;
     font-size: 2vh;
     color: #0367a6;
 }
 .cardimagem p {
+    font-family: play;
     font-size: 2vh;
     margin-top: 0.1vh;
     color: #0367a6;
@@ -59,3 +61,5 @@
     margin-right: 1.7vw;
     float: right;
 }
+
+.
