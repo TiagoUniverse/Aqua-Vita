@@ -3,7 +3,7 @@ var ctx = document.getElementById('temperatura').getContext('2d');
 var temperatura = new Chart(ctx, {
     type: 'line',
     data: {
-        labels: ['Jan', 'Fev', 'Mar', 'Abr', 'Maio', 'Jun', 'Jul', 'Ago', 'Set', 'Out', 'Nov', 'Dez'],
+        labels: ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'],
         datasets: [{
             label: '°C',
             data: [23, 22, 25, 23, 21, 19, 19, 21, 24, 22, 21, 25],

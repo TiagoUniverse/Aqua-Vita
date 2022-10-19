@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gráficos</title>
+    <link href="assets/css/cards.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Play' rel='stylesheet' />
+
+    <link rel="manifest" href="manifest.json">
+
+
+
+
+</head>
+
+<body>
+
+    <div class="titulo-dashboards">
+        <div class="dashboard-img">
+            <img src="assets\img\fotos\Rio Moxotó.webp" alt="Rio Moxotó">
+            <div class="sombra"></div>
+            <div class="nome"><span>Rio Moxotó</span></div>
+            <div class="lugar"><span>Jatobá</span></div>
+        </div>
+    </div>
+
+    <div class="grf-container">
+        <div class="grf-box">
+            <h4>Temperatura</h4>
+            <canvas id="temperatura"></canvas>
+        </div>
+
+    </div>
+    <div class="espacinho">
+    </div>
+
+    <div class="grf-container">
+        <div class="grf-box">
+            <h4>Turbidez</h4>
+            <canvas id="turbidez"></canvas>
+        </div>
+    </div>
+
+    </div>
+    <div class="espacinho">
+    </div>
+
+    <div class="grf-container">
+        <div class="grf-box">
+            <h4>Nivel de pH</h4>
+            <canvas id="nivel-ph"></canvas>
+        </div>
+    </div>
+
+    </div>
+    <div class="espacinho">
+    </div>
+
+    <div class="grf-container">
+        <div class="grf-box">
+            <h4>Oxigênio dissolvido</h4>
+            <canvas id="oxi-dissolvido"></canvas>
+        </div>
+    </div>
+
+    </div>
+    <div class="espacinho">
+    </div>
+
+    <div class="grf-container">
+        <div class="grf-box">
+            <h4>Condutividade</h4>
+            <canvas id="condutividade"></canvas>
+        </div>
+    </div>
+
+    </div>
+    <div class="espacinho">
+    </div>
+
+    <div class="grf-container">
+        <div class="grf-box">
+            <h4>Salinidade</h4>
+            <canvas id="salinidade"></canvas>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="espacinho">
+    </div>
+
+    <nav>
+        <div class="navbar">
+            <div class="mapa">
+                <a href="mapa.html">
+                    <img src="assets\img\svg\mapicon.svg">
+                </a>
+            </div>
+            <div class="adicionar">
+                <a href="adicionar.html">
+                    <img src="assets\img\svg\addicon.svg"></a>
+            </div>
+            <div class="usuario">
+                <a href="usuario.html">
+                    <img src="assets\img\svg\usericon.svg">
+                </a>
+            </div>
+        </div>
+    </nav>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+<script src="graficos.js"></script>
+
+<script>
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js', { scope: '/' });
+    }
+</script>
+
+</html>
