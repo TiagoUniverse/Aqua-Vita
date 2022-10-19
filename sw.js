@@ -6,7 +6,25 @@ self.addEventListener('install', event => {
     const cache = await caches.open(CACHE_NAME);
     cache.addAll([
 
-      './index.html' 
+      './adicionar.html' ,
+
+      './dashboards.html' ,
+
+      './graficos.html' ,
+
+      './index.html' ,
+
+      './login.html' ,
+
+      './mapa.html' ,
+      
+      './usuario.html' ,
+
+      'assets/img/fotos/rio-1.webp',
+
+      'assets/img/fotos/rio-2.webp',
+
+      'assets/img/fotos/rio-3.webp' 
 
     ]);
   })());
