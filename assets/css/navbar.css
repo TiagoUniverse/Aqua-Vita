@@ -46,6 +46,19 @@
     width: auto;
 }
 
+.adicionar {
+  width: 5.2vh;
+  height: 5.2vh;
+  border-radius: 10vw;
+  position: fixed;
+  left: 87.6vw;
+  bottom: 15vh;
+  background-color: #0367a6;
+  justify-content: center;
+  color: white;
+}
+
+
 .escala {
     transform: scale(0.6);
     position: fixed;
@@ -126,3 +139,4 @@
   input[type="submit"]:hover {
     opacity: 0.8;
   }
+

@@ -1,4 +1,4 @@
-const CACHE_NAME = `my-sample-app-cache-v1`;
+const CACHE_NAME = `AquaVita-v1`;
 
 // Use the install event to pre-cache all initial resources.
 self.addEventListener('install', event => {
