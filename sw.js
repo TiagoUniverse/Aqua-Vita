@@ -24,7 +24,7 @@ self.addEventListener('install', event => {
 
       'assets/img/fotos/rio-2.webp',
 
-      'assets/img/fotos/rio-3.webp' 
+      'assets/img/fotos/rio-3.webp'
 
     ]);
   })());
