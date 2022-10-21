@@ -47,23 +47,24 @@
 }
 
 .adicionar {
+  display: flex;
+  align-items: center;
   width: 5.2vh;
   height: 5.2vh;
   border-radius: 10vw;
   position: fixed;
-  left: 87.6vw;
-  bottom: 15vh;
+  left: 86.4vw;
+  bottom: 15.5vh;
   background-color: #0367a6;
   justify-content: center;
   color: white;
 }
 
-
 .escala {
     transform: scale(0.6);
     position: fixed;
     bottom: 5vh;
-    left: 83vw;
+    left: 79vw;
     background-color: #0367a6;
     border-radius: 100vw;
 }
@@ -79,6 +80,7 @@
 
     img {
         width: 10vw;
+        width: auto;
     }
   
   input[type="text"] {

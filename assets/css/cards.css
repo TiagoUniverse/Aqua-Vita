@@ -173,8 +173,13 @@ body {
     box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
 }
 
+
 .botoesperfil button {
-    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4vh;
+    min-height: 60px;
     width: 50vw;
     margin-bottom: 2vh;
     margin-left: 25vw;
