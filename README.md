@@ -12,6 +12,8 @@ Tendo isso em mente, foi-se planejado um projeto integrador em parceria com alun
 ## 🎯 Objetivo
 Levantamento de apps para monitoramento de qualidade de água de rios e reservatórios
 
+## Link
+https://aquavitta.netlify.app/
 ---
 
 ## ☕ Equipe
