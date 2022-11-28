@@ -136,9 +136,8 @@ body {
 }
 
 .pagperfil .fotoperfil img {
-    border: 10vh;
     border-radius: 5%;
-    width: 40vw;
+    width: 23vw;
     height: auto;
     background-color: #0367a6;
     outline-style: solid;
@@ -188,13 +187,6 @@ body {
 
 }
 
-@media screen and (max-width: 768px){
-    .botoesperfil button p{
-        color: #ffffff;
-        font-size: 5vw;
-        
-    }   
-}
 
 /* Dashboards */
 .sombra {
@@ -358,3 +350,16 @@ body {
     font-family: Play, Geneva, Tahoma, sans-serif;
     font-size: 4vw;
 }
+
+
+@media screen and (max-width: 768px){
+    /* .botoesperfil{
+        background-color: red;
+    } */
+
+    .pagperfil .fotoperfil img {
+        width: 40vw;
+    }
+}
+
+
