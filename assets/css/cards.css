@@ -131,7 +131,6 @@ body {
 }
 
 .pagperfil  {
-    position: fixed;
     top: 10vh;
     left: 30vw;
 }
@@ -173,8 +172,7 @@ body {
     box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
 }
 
-
-.botoesperfil button {
+.botoesperfil {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -185,22 +183,9 @@ body {
     margin-left: 25vw;
     margin-right: 25vw;
     background-color: #0378A6;
-    border: 20vh;
     border-radius: 2vh;
-    padding: 10px;
     box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
-}
 
-.botoesperfil a {
-    color: #ffffff;
-    font-family: 'Hind Colombo';
-    font-size: 18px;
-}
-
-.botoesperfil button p{
-    color: #ffffff;
-    font-size: 8vw;
-    
 }
 
 @media screen and (max-width: 768px){
