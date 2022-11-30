@@ -19,9 +19,9 @@ body {
     vertical-align: top;
     position: relative;
     top: 0;
-    width: 40vw;
+    width: 12vw;
     height: auto;
-    margin: 2vh;
+    /* margin: 2vh; */
 }
 
 
@@ -247,16 +247,18 @@ body {
 /*Adicionar*/
 
 
-.fotorio img {
+.fotorio {
     border: 10vh;
     border-radius: 5%;
-    width: 40vw;
+    width: 15vw;
     height: auto;
     background-color: #0367a6;
     outline-style: solid;
     outline-width: 0.5vh;
     outline-color: #1E3E59;
     outline-offset: 0.5vh;
+    justify-content:center; 
+    display: flex;
 }
 
 .fotorio p {
@@ -358,6 +360,15 @@ body {
     } */
 
     .pagperfil .fotoperfil img {
+        width: 40vw;
+    }
+
+    .logo-menor img {
+        width: 40vw;
+        height: auto;
+    }
+
+    .fotorio{
         width: 40vw;
     }
 }
