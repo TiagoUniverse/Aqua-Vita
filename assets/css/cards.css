@@ -310,15 +310,15 @@ body {
 }
 
 
-.ajudaparagrafo p {
+.ajudaparagrafo h1 {
     font-family: Play, Geneva, Tahoma, sans-serif;
-    font-size: 6vw;
+    font-size: 3vw;
     text-align: center;
 }
 
 .descricaoparagrafo p{
     font-family: Play, Geneva, Tahoma, sans-serif;
-    font-size: 4vw;
+    font-size: 1.2vw;
 }
 
 
@@ -342,6 +342,14 @@ body {
 
     .botoesperfil{
         min-height: 47px;   
+    }
+
+    .ajudaparagrafo h1{
+        font-size: 9vw;
+    }
+
+    .descricaoparagrafo p{
+        font-size: 5vw;
     }
 }
 
