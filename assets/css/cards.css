@@ -21,7 +21,6 @@ body {
     top: 0;
     width: 12vw;
     height: auto;
-    /* margin: 2vh; */
 }
 
 
@@ -34,37 +33,6 @@ body {
     box-sizing: border-box;
 }
 
-.card {
-    border-radius: 0.4rem;
-    box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
-    padding-bottom: 1rem;
-    overflow: hidden;
-    background-color: #F2F2F2;
-}
-
-.card img {
-    border-radius: 0.5rem 0.5rem 0 0;
-    width: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
-    max-height: max(10rem, 25vh);
-    aspect-ratio: 16/10;
-    mix-blend-mode: var(--card-blend-mode);
-}
-
-.card img~* {
-    margin-left: 1rem;
-    margin-right: 1rem;
-}
-
-.card li :last-child {
-    margin-bottom: 5px;
-}
-
-.card:hover,
-.card:focus-within {
-    --card-gradient: #24a9d5 max(8.5rem, 20vh);
-}
 
 /* Additional demo display styles */
 * {
