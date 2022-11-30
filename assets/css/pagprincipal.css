@@ -18,6 +18,10 @@
     max-width: 200px;
 }
 
+.cardimagem {
+    text-align: center;
+}
+
 .cardimagem img{
     width: 45vw;
     aspect-ratio: 1/1;
@@ -37,9 +41,7 @@
     color: #0367a6;
 }
 
-.cardimagem {
-    text-align: center;
-}
+
 
 .card {
     margin-top: 2vh;

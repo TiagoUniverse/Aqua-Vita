@@ -64,7 +64,7 @@
     transform: scale(0.6);
     position: fixed;
     bottom: 5vh;
-    left: 79vw;
+    left: 89vw;
     background-color: #0367a6;
     border-radius: 100vw;
 }
@@ -140,5 +140,12 @@
   
   input[type="submit"]:hover {
     opacity: 0.8;
+  }
+
+
+  @media screen and (max-width: 768px){
+    .escala{
+      left : 79vw;
+    }
   }
 
