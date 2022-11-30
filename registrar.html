@@ -1,14 +1,13 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  
-  <meta name="description" content="Página de registro de um novo usuário">
-  <meta name="theme-color" content="#ffffff"/>
+  <meta name="description" content="Página de login">
+  <meta name="theme-color" content="#ffffff" />
   <link rel="apple-touch-icon" href="/assets/icons/58.png">
-  <title>Login AquaVita</title>
+  <title>Registro</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -18,7 +17,9 @@
 
   <!-- Google Fonts -->
   <link href="https://fonts.gstatic.com" rel="preconnect">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -29,82 +30,61 @@
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
 
 
-  <link href="assets/css/login.css" rel="stylesheet">
+  <!-- Template Main CSS File -->
   <link href="assets/css/cards.css" rel="stylesheet">
+  <link href="assets/css/login.css" rel="stylesheet">
 
   <link rel="manifest" href="manifest.json">
 
+  <!-- =======================================================
+  * Template Name: NiceAdmin - v2.4.0
+  * Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
-
 
 <body>
 
-  <style>
-    body {
-      background-image: linear-gradient(0deg, rgba(29, 182, 242, 0.5) 0%, rgba(255, 255, 255, 0.25) 88.19%)
+  <img loading="lazy" class="logo-img" src="assets/img/logo.webp" width="500" height="500" alt="Logo da Aqua Vita">
 
-    }
-    </style>
 
-  <main>
-    <div class="container">
+  <div class="pt-4 pb-2">
+    <h5 class="card-title text-center pb-0 fs-4">Cadastro</h5>
+    <p class="text-center small">Crie seu conta para acessar o aplicativo</p>
+  </div>
 
-      <section class="section register min-vh-100 d-flex flex-column align-items-center justify-content-center py-4">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-4 col-md-6 d-flex flex-column align-items-center justify-content-center">
+  <form class="row g-3 needs-validation" novalidate action="index.html">
 
-              <div class="logo-c">
-                  <img loading="lazy" src="assets/img/logo.webp" width="500" height="500" alt="Logo da Aqua Vita" >
-                </a>
-              </div><!-- End Logo -->
-                
-
-                  <div class="pt-4 pb-2">
-                    <h5 class="card-title text-center pb-0 fs-4">Cadastre-se</h5>
-                    <p class="text-center small">Para acessar o app</p>
-                  </div>
-
-                  <form class="row g-3 needs-validation" novalidate action="index.html">
-
-                    <div class="col-12">
-                      <label for="yourPassword" class="form-label">Nome</label>
-                      <input type="password" name="password" class="form-control" id="yourPassword">
-                    </div>
-
-                    <div class="col-12">
-                      <label for="yourUsername" class="form-label"p style="color:#0378A6">Email</label>
-                      <div class="input-group has-validation">
-                        <span class="input-group-text" id="inputGroupPrepend">@</span>
-                        <input type="text" name="username" class="form-control" id="yourUsername">
-                      </div>
-                    </div>
-                    
-                    <div class="col-12">
-                      <label for="yourPassword" class="form-label">Senha</label>
-                      <input type="password" name="password" class="form-control" id="yourPassword">
-                    </div>
-                    <div class="col-12">
-                      <label for="yourPassword" class="form-label">Repita a Senha</label>
-                      <input type="password" name="password" class="form-control" id="yourPassword">
-                    </div>
-
-                    <div class="col-12">
-                      <button class="btn btn-primary w-100" type="submit">Cadastrar-se</button>
-                    </div>
-                    <div class="regbutton">
-                      <a href="login.html">Fazer login</u></p>
-                    </div>
-                  </form>
-
-            </div>
-          </div>
-        </div>
-
-      </section>
-
+    <div class="col-12">
+      <label for="yourPassword" class="form-label">Nome</label>
+      <input type="password" name="password" class="form-control" id="yourPassword">
     </div>
-  </main><!-- End #main -->
+
+    <div class="col-12">
+      <label for="yourUsername" class="form-label"p style="color:#0378A6">Email</label>
+      <div class="input-group has-validation">
+        <span class="input-group-text" id="inputGroupPrepend">@</span>
+        <input type="text" name="username" class="form-control" id="yourUsername">
+      </div>
+    </div>
+    
+    <div class="col-12">
+      <label for="yourPassword" class="form-label">Senha</label>
+      <input type="password" name="password" class="form-control" id="yourPassword">
+    </div>
+    <div class="col-12">
+      <label for="yourPassword" class="form-label">Repita a Senha</label>
+      <input type="password" name="password" class="form-control" id="yourPassword">
+    </div>
+
+    <div class="col-12">
+      <button class="btn btn-primary w-100" type="submit">Cadastrar-se</button>
+    </div>
+    <div class="regbutton">
+      <a href="login.html">Fazer login</u></p>
+    </div>
+  </form>
 
   <script>
     if ('serviceWorker' in navigator) {
