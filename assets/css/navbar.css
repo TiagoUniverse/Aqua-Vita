@@ -16,6 +16,7 @@
   height: 6vh;
   display: flex;
   align-items: center;
+  
 }
 
 .cartoes {
@@ -53,26 +54,68 @@
   height: 5.2vh;
   border-radius: 10vw;
   position: fixed;
-  left: 90.4vw;
+  left: 87vw;
   bottom: 16.5vh;
   background-color: #0367a6;
   justify-content: center;
   color: white;
 }
 
+.adicionar h1{
+  font-size: 5vh;
+}
+
 .escala {
-  transform: scale(0.6);
+  /* transform: scale(0.44);
   position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 77.4vw;
   bottom: 5vh;
+  background-color: #0367a6;
+  border-radius: 100vw; */
+  position: fixed;
+  transform: scale(0.75);
+  bottom: 5vh;
+  left: 86vw;
+  background-color: #0367a6;
+  border-radius: 100vw;
+
+}
+
+.escala img{
+  width: 3vh;
+  height: 3vh;
+}
+
+.escala-mapa {
+  /* transform: scale(0.44);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 77.4vw;
+  bottom: 5vh;
+  background-color: #0367a6;
+  border-radius: 100vw; */
+  transform: scale(1);
+  position: fixed;
+  bottom: 8vh;
   left: 89vw;
   background-color: #0367a6;
   border-radius: 100vw;
+
+}
+
+.escala-mapa img {
+  width: 3vh;
+  height: 3vh;
 }
 
 #wrap {
   margin: 20px 20px;
   display: inline-block;
-  position: fixed height: 60px;
   float: right;
   padding: 0;
 }
@@ -145,10 +188,11 @@ input[type="submit"]:hover {
 
 @media screen and (max-width: 768px) {
   .escala {
-    left: 79vw;
+    left: 84vw;
+    bottom: 7vh;
   }
 
   .adicionar {
-    bottom: 19.5vh;
+    bottom: 16.5vh;
   }
 }

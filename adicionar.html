@@ -139,39 +139,7 @@
       navigator.serviceWorker.register('/sw.js', { scope: '/' });
     }
   </script>
-  <script src="https://code.jquery.com/jquery-3.6.1.min.js"
-    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
-  <script type="text/javascript">
-    function salvarRio() {
-      var nome = $("#nome").val();
-      var endereco = $("#endereco").val();
-      var latitude = $("#latitude").val();
-      var longitude = $("#longitude").val();
-      var potencialHidrogenico = $("#potencialHidrogenico").val();
-      var oxigenioDissolvido = $("#oxigenioDissolvido").val();
-      var temperatura = $("#temperatura").val();
-      var condutividade = $("#condutividade").val();
-      var salinidade = $("#salinidade").val();
-      var turbidez = $("#turbidez").val();
-
-      $.ajax({
-        method: "POST",
-        url: "/rio/cadastrarRio",
-        data: JSON.stringify({
-          nome: nome, endereco: endereco, latitude: latitude,
-          longitude: longitude, potencialHidrogenico: potencialHidrogenico,
-          oxigenioDissolvido: oxigenioDissolvido, temperatura: temperatura,
-          condutividade: condutividade, salinidade: salinidade, turbidez: turbidez
-        }),
-        contentType: "application/json; charset=utf-8",
-        success: function (response) {
-          alert("Rio adicionado com sucesso!");
-        }
-      }).fail(function (xhr, status, errorThrown) {
-        alert("Erro ao adicionar rio: " + xhr.responseText);
-      });
-    }
-  </script>
+  
 </body>
 
 </html>
