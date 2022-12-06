@@ -19,6 +19,7 @@
   <link rel="stylesheet" href="assets\css\navbar.css">
 
   <link rel="manifest" href="manifest.json">
+  <script src="assets/scripts/Posts.js"></script>
 
 </head>
 
@@ -36,7 +37,7 @@
   <h5> Insira a sua foto</h5>
   <br>
 
-  <form class="needs-validation" novalidate>
+  <form onsubmit="cadastrarRio()" class="needs-validation" novalidate>
 
     <div class="dadosperfil">
       <div>
@@ -81,7 +82,7 @@
       </div>
     </div>
 
-    <a class="btn btn-primary botoesperfil" href="index.html" role="button" onclick="salvarRio()" >Salvar</a>
+    <button href="index.html" class="btn btn-primary botoesperfil" type="submit" >Salvar</button>
   </form>
   <br>
 
@@ -112,9 +113,11 @@
           <img loading="lazy" src="assets\icons\mapabranco.svg" width="34" height="31" alt="mapa">
         </div>
       </a>
-      <div class="cartoes">
-        <img loading="lazy" src="assets\icons\cartõesescuro.svg" width="34" height="31" alt="cartões">
-      </div>
+      <a href="index.html">
+        <div class="cartoes">
+          <img loading="lazy" src="assets\icons\cartõesescuro.svg" width="34" height="31" alt="cartões">
+        </div>
+      </a>
       <a href="usuario.html">
         <div class="usuario">
           <img loading="lazy" src="assets\icons\usuariobranco.svg" width="34" height="31" alt="usuario">
