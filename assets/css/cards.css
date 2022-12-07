@@ -117,12 +117,12 @@ body {
 .dadosperfil a {
     font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
     font-size: 2.1vh;
-    margin-left: -11vw;
+    margin-left: 10vw;
 }
 
 .dadosperfil h3 {
     font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
-    margin-left: -11vw;
+    margin-left: 10vw;
 }
 
 .dadosperfil input {
