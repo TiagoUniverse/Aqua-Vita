@@ -105,7 +105,7 @@ body {
 
 .pagperfil .fotoperfil img {
     border-radius: 5%;
-    width: 23vw;
+    width: 17vw;
     height: auto;
     background-color: #0367a6;
     outline-style: solid;
@@ -117,7 +117,12 @@ body {
 .dadosperfil a {
     font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
     font-size: 2.1vh;
-    margin-left: 10vw;
+    margin-left: -11vw;
+}
+
+.dadosperfil h3 {
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+    margin-left: -11vw;
 }
 
 .dadosperfil input {
