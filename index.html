@@ -1,181 +1,100 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta name="description" content="Página de login">
+  <meta name="theme-color" content="#ffffff" />
+  <link rel="apple-touch-icon" href="/assets/icons/58.png">
+  <title>Login AquaVita</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport"
-        content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=10, minimum-scale=1.0">
-    <meta name="description" content="Página para fazer o cadastro de um novo rio.">
-    <meta name="theme-color" content="#ffffff" />
-    <link rel="apple-touch-icon" href="/assets/icons/58.png">
-    <title>Página principal</title>
+  <!-- Favicons -->
+  <link href="assets/img/logo.webp" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
 
 
-    <link rel="stylesheet" href="assets\css\pagprincipal.css">
-    <link rel="stylesheet" href="assets\css\navbar.css">
-    <link href='https://fonts.googleapis.com/css?family=Play' rel='stylesheet' />
+  <!-- Template Main CSS File -->
+  <link href="assets/css/cards.css" rel="stylesheet">
+  
+  <link href="assets/css/login.css" rel="stylesheet">
 
-    <link rel="manifest" href="manifest.json">
-    <script src="assets/scripts/Gets.js"></script>
+  <link rel="manifest" href="manifest.json">
 
+  <!-- =======================================================
+  * Template Name: NiceAdmin - v2.4.0
+  * Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
 <body>
-    <div class="logo">
-        <div class="principal">
-            <img src="assets/img/logo.webp" width="100" height="100" alt="Logo">
-        </div>
+
+  <img loading="lazy" class="logo-img" src="assets/img/logo.webp" width="500" height="500" alt="Logo da Aqua Vita">
+
+
+  <div class="pt-4 pb-2">
+    <h3>Aplicativo de monitoramento de água</h3>
+    <h5 class="card-title text-center pb-0 fs-4">Acesse sua Conta</h5>
+    <p class="text-center small">Insira usuário e senha</p>
+  </div>
+
+  <form class="row g-3 needs-validation" novalidate action="home.html">
+
+    <div class="col-12">
+      <label for="yourUsername" class="form-label" p style="color:#0378A6">Usuário</label>
+      <div class="input-group has-validation">
+        <span class="input-group-text" id="inputGroupPrepend">@</span>
+        <input type="text" name="username" class="form-control" id="yourUsername" required>
+        <div class="invalid-feedback">Por favor, insira seu email de usuário</div>
+      </div>
     </div>
 
-    <div class="cards">
-        <div class="esquerda">
-            <a href="grf-capibaribe.html">
-                <div class="card">
-                    <div class="cardimagem">
-                        <img loading="lazy" src="assets/img/fotos/Rio-capibaribe.webp" height="auto 600"
-                            width="auto 600" alt="Rio capibaribe">
-                        <b>Rio Capibaribe</b>
-                        <p>Recife
-                        </p>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="direita">
-            <a href="grf-rio-una.html">
-                <div class="card">
-                    <div class="cardimagem">
-                        <img loading="lazy" src="assets\img\fotos\Rio-Una.webp" height="auto 600" width="auto 600"
-                            alt="Rio Una">
-                        <b>Rio Una</b>
-                        <p>Bélem de Maria
-                        </p>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="esquerda">
-            <a href="grf-rio-ipojuca.html">
-                <div class="card">
-                    <div class="cardimagem">
-                        <img loading="lazy" src="assets\img\fotos\Rio-Ipojuca.webp" height="auto 600" width="auto 600"
-                            alt="Rio Ipojuca">
-                        <b>Rio Ipojuca</b>
-                        <p>Caruaru
-                        </p>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="direita">
-            <a href="grf-rio-beberibe.html">
-                <div class="card">
-                    <div class="cardimagem">
-                        <img loading="lazy" src="assets\img\fotos\Rio Beberibe.webp" height="auto 600" width="auto 600"
-                            alt="Rio Beberibe">
-                        <b>Rio Beberibe</b>
-                        <p>Olinda
-                        </p>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="esquerda">
-            <a href="grf-rio-goiana.html">
-                <div class="card">
-                    <div class="cardimagem">
-                        <img loading="lazy" src="assets\img\fotos\Rio Goiana.webp" height="auto 600" width="auto 600"
-                            alt="Rio Goiana">
-                        <b>Rio Goiana</b>
-                        <p>Goiana
-                        </p>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="direita">
-            <a href="grf-rio-pajeu.html">
-                <div class="card">
-                    <div class="cardimagem">
-                        <img loading="lazy" src="assets\img\fotos\Rio Pajeú.webp" height="auto 600" width="auto 600"
-                            alt="Rio Pajeú">
-                        <b>Rio Pajeú</b>
-                        <p>São José do Egito
-                        </p>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="esquerda">
-            <a href="grf-rio-moxoto.html">
-                <div class="card">
-                    <div class="cardimagem">
-                        <img loading="lazy" src="assets\img\fotos\Rio Moxotó.webp" srcset="Rio+Moxotó 162w.webp 162w"
-                            sizes="162vw" height="auto 600" width="auto 600" alt="Rio Moxoté">
-                        <b>Rio Moxotó</b>
-                        <p>Jatobá
-                        </p>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="direita">
-            <a href="grf-rio-ipanema.html">
-                <div class="card" style="margin-bottom: 8vh">
-                    <div class="cardimagem">
-                        <img loading="lazy" src="assets\img\fotos\Rio Ipanema.webp" height="auto 600" width="auto 600"
-                            alt="Rio Ipanema">
-                        <b>Rio Ipanema</b>
-                        <p>Arcoverde
-                        </p>
-                    </div>
-                </div>
-            </a>
-        </div>
+    <div class="col-12">
+      <label for="yourPassword" class="form-label">Senha</label>
+      <input type="password" name="password" class="form-control" id="yourPassword" required>
+      <div class="invalid-feedback">Insira sua senha</div>
     </div>
 
-    <nav>
-        <div class="navbar">
-            <a href="mapa.html">
-                <div class="mapa">
-                    <img loading="lazy" src="assets\icons\mapabranco.svg" width="34" height="31" alt="mapa">
-                </div>
-            </a>
-            <div class="cartoes">
-                <img loading="lazy" src="assets\icons\cartõesescuro.svg" width="34" height="31" alt="cartões">
-            </div>
-            <a href="usuario.html">
-                <div class="usuario">
-                    <img loading="lazy" src="assets\icons\usuariobranco.svg" width="34" height="31" alt="usuario">
-                </div>
-            </a>
-        </div>
-        <div class="escala">
-            <div id="wrap">
-                <img loading="lazy" src="assets\icons\pesquisa.svg" alt="pesquisar" width="65" height="65">
-                <form action="" autocomplete="on">
-                    <input id="search" name="search" type="text" placeholder="Rio Capibaribe"><input id="search_submit"
-                        value="Rechercher" type="submit">
-                </form>
-                </img>
-            </div>
-        </div>
-    </nav>
+    <div class="col-12">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" name="remember" value="true" id="rememberMe">
+        <label class="form-check-label" for="rememberMe">Mantenha-me conectado</label>
+      </div>
+    </div>
+    <div class="col-12">
+      <button class="btn btn-primary w-100" type="submit">Login</button>
+    </div>
+    <div class="regbutton">
+      <a href="registrar.html">Cadastrar</a>
+      <a href="Ajuda-login.html"><p>Ajuda</p></a>
+      
+    </div>
+  </form>
 
-    <a href="adicionar.html">
-        <div class="adicionar">
-            <h1>+</h1>
-        </div>
-    </a>
 
-    <script>
-        if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('/sw.js', { scope: '/' });
-        }
-    </script>
-
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js', { scope: '/' });
+    }
+  </script>
 
 </body>
 

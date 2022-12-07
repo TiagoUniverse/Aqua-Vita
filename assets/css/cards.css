@@ -120,6 +120,10 @@ body {
     margin-left: 10vw;
 }
 
+#dadosperfil-text{
+    margin-left: -11vw; 
+}
+
 .dadosperfil h3 {
     font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
     margin-left: 10vw;

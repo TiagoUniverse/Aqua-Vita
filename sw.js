@@ -12,9 +12,9 @@ self.addEventListener('install', event => {
 
       './graficos.html' ,
 
-      './index.html' ,
+      './home.html' ,
 
-      './login.html' ,
+      './home.html' ,
 
       './mapa.html' ,
       
