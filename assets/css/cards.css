@@ -152,7 +152,7 @@ body {
     background-color: #0378A6;
     border-radius: 2vh;
     box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
-
+    color: white;
 }
 
 .botoAlterarSenha {
@@ -168,7 +168,7 @@ body {
     background-color:rgba(255, 0, 0, 0.815);
     border-radius: 2vh;
     box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
-
+    color: white;
 }
 
 
