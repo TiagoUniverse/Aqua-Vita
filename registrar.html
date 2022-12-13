@@ -11,23 +11,10 @@
   <meta content="" name="description">
   <meta content="" name="keywords">
 
-  <!-- Favicons -->
-  <link href="assets/img/logo.webp" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.gstatic.com" rel="preconnect">
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
-  <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet' />
+  <link href='https://fonts.googleapis.com/css?family=Play' rel='stylesheet' />
 
 
   <!-- Template Main CSS File -->
@@ -35,58 +22,58 @@
   <link href="assets/css/login.css" rel="stylesheet">
 
   <link rel="manifest" href="manifest.json">
-  <script src="assets/scripts/Posts.js"></script>
 
-  <!-- =======================================================
-  * Template Name: NiceAdmin - v2.4.0
-  * Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
-</head>
 
 <body>
 
   <img loading="lazy" class="logo-img" src="assets/img/logo.webp" width="500" height="500" alt="Logo da Aqua Vita">
 
-
-  <div class="pt-4 pb-2">
-    <h3>Aplicativo de monitoramento de água</h3>
-    <h5 class="card-title text-center pb-0 fs-4">Cadastro</h5>
-    <p class="text-center small">Crie seu conta para acessar o aplicativo</p>
-  </div>
-
-  <form onsubmit="cadastrarUsuario()" class="row g-3 needs-validation">
-
-    <div class="col-12">
-      <label for="yourUsername" class="form-label">Nome</label>
-      <input type="text" name="username" class="form-control" id="nome">
+  <div class="caixa-login">
+    <div class="titulo-login">
+      <h3>Aplicativo de monitoramento de água</h3>
+      <h3>Cadastro</h3>
+      <p>Crie seu conta para acessar o aplicativo</p>
     </div>
 
-    <div class="col-12">
-      <label for="yourUsername" class="form-label"p style="color:#0378A6">Email</label>
-      <div class="input-group has-validation">
-        <span class="input-group-text" id="inputGroupPrepend">@</span>
-        <input type="text" name="username" class="form-control" id="email">
+    <form onsubmit="cadastrarUsuario()" class="row g-3 needs-validation">
+
+      <div class="col-12">
+        <label for="yourUsername" class="form-label">Nome</label>
+        <input type="text" name="username" class="form-control" id="nome">
       </div>
-    </div>
-    
-    <div class="col-12">
-      <label for="yourPassword" class="form-label">Senha</label>
-      <input type="password" name="password" class="form-control" id="senha">
-    </div>
-    <div class="col-12">
-      <label for="yourPassword" class="form-label">Repita a Senha</label>
-      <input type="password" name="password" class="form-control" id="yourPassword">
-    </div>
 
-    <div class="col-12">
-      <button class="btn btn-primary w-100" type="submit">Cadastrar-se</button>
-    </div>
-    <div class="regbutton">
-      <a href="index.html">Fazer login</u></p></a>
-    </div>
-  </form>
+      <div class="col-12">
+        <label for="yourUsername" class="form-label" p style="color:#0378A6">Email</label>
+
+        <div class="input-group has-validation">
+          <input type="text" name="username" class="form-control" id="email">
+        </div>
+      </div>
+
+      <div class="col-12">
+        <label for="yourPassword" class="form-label">Senha</label>
+        <input type="password" name="password" class="form-control" id="senha">
+      </div>
+      <div class="col-12">
+        <label for="yourPassword" class="form-label">Repita a Senha</label>
+        <input type="password" name="password" class="form-control" id="yourPassword">
+      </div>
+
+      <div class="espacinho"></div>
+
+      <div class="col-12">
+      <div class="botao-login">
+        <button class="fundo-botao" type="submit">Cadastrar-se</button>
+      </div>
+      </div>
+
+      <div class="espacinho"></div>
+
+      <div class="regbutton">
+        <a href="index.html">Fazer login</u></p></a>
+      </div>
+    </form>
+  </div>
 
   <script>
     if ('serviceWorker' in navigator) {

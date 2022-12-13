@@ -272,10 +272,6 @@ body {
     margin-bottom: 7%;
 }
 
-.col-12 p {
-    font-family: Play, Geneva, Tahoma, sans-serif;
-}
-
 .fundo-imagem {
     padding-left: 18%;
     padding-top: 25%;
@@ -380,4 +376,37 @@ body {
     }
 }
 
+.caixa-login {
+    
+    justify-content: center;
+    font-family: "Play", sans-serif;
+    border-radius: 5%;
+    padding: 5%;
+}
+.titulo-login{
+    
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+    text-align: center
+}
 
+.col-12 {
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.invalid-feedback {
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.regbutton {
+    text-decoration: underline;
+}
+
+::placeholder {
+    font-style: italic;
+}
+
+.form-control{width:100%; height: auto}
+    

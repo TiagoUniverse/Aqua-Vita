@@ -10,71 +10,73 @@
   <title>Login AquaVita</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet' />
+  <link href='https://fonts.googleapis.com/css?family=Play' rel='stylesheet' />
 
   <!-- Favicons -->
-  <link href="assets/img/logo.webp" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
 
 
   <!-- Template Main CSS File -->
   <link href="assets/css/cards.css" rel="stylesheet">
-  
+
   <link href="assets/css/login.css" rel="stylesheet">
 
   <link rel="manifest" href="manifest.json">
 
-  <!-- =======================================================
-  * Template Name: NiceAdmin - v2.4.0
-  * Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
 
   <img loading="lazy" class="logo-img" src="assets/img/logo.webp" width="500" height="500" alt="Logo da Aqua Vita">
 
+  <div class="caixa-login">
+    <div class="titulo-login">
+      <h3>Aplicativo de monitoramento de água</h3>
+  
+      <p>Acesse sua Conta</p>
+      <div class="espacinho"></div>
+    </div>
 
-  <div class="">
-    <h3>Aplicativo de monitoramento de água</h3>
-    <h5>Acesse sua Conta</h5>
-    <p>Insira usuário e senha</p>
+    <form novalidate action="home.html">
+
+      <div class="col-12">
+        <label for="yourUsername" p style="color:#0378A6">Usuário</label>
+        <div>
+          <input type="text" name="username" class="form-control" id="yourUsername"  placeholder="Insira seu nome de usuário">
+        </div>
+      </div>
+
+      <div class="col-12">
+        <label for="yourPassword" class="form-label">Senha</label>
+        <div>
+          <input type="password" name="password" class="form-control" id="yourPassword" placeholder="Insira sua senha">
+        </div>
+      </div>
+
+      <div class="col-12">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" name="remember" value="true" id="rememberMe">
+          <label class="form-check-label" for="rememberMe">Mantenha-me conectado</label>
+        </div>
+      </div>
+      <div class="espacinho"></div>
+      <div class="col-12">
+        <div class="botao-login">
+          <button class="fundo-botao" type="submit">Login</button>
+        </div>
+      </div>
+      <div class="espacinho"></div>
+
+      <div class="regbutton">
+        <a href="registrar.html">Cadastrar</a>
+        <a href="Ajuda-login.html">
+          <p>Ajuda</p>
+        </a>
+
+      </div>
+    </form>
   </div>
-
-  <form novalidate action="home.html">
-
-    <div class="col-12">
-      <label for="yourUsername" p style="color:#0378A6">Usuário</label>
-      <div>
-        <input type="text" name="username" id="yourUsername" required>
-        <div class="invalid-feedback">Por favor, insira seu nome  de usuário</div>
-      </div>
-    </div>
-
-    <div class="col-12">
-      <label for="yourPassword" class="form-label">Senha</label>
-      <input type="password" name="password" class="form-control" id="yourPassword" required>
-      <div class="invalid-feedback">Insira sua senha</div>
-    </div>
-
-    <div class="col-12">
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" name="remember" value="true" id="rememberMe">
-        <label class="form-check-label" for="rememberMe">Mantenha-me conectado</label>
-      </div>
-    </div>
-    <div class="col-12">
-      <div class="botao-login">
-        <button class="fundo-botao" type="submit">Login</button>
-      </div>
-    </div>
-    <div class="regbutton">
-      <a href="registrar.html">Cadastrar</a>
-      <a href="Ajuda-login.html"><p>Ajuda</p></a>
-      
-    </div>
-  </form>
 
 
   <script>
