@@ -14,18 +14,43 @@
   <title>Mapa</title>
 
   <link rel="manifest" href="manifest.json">
+  <script type="module" src="./index.js"></script>
+
+
+  <style>
+    #map {
+      height: 100%;
+    }
+  </style>
+
 </head>
 
 <body>
-  <div class="mapaiframe">
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7900.753519187095!2d-34.870533389355366!3d-8.062997710929059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1664775914335!5m2!1spt-BR!2sbr"></iframe>
+
+  <div class="mapa-google">
+    <div id="map"></div>
+    <script async
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDuw1f9lMuTdqneaCKi69plEbLJCLUfZTI&callback=initMap">
+      </script>
   </div>
 
   <script>
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('/sw.js', { scope: '/' });
     }
+  </script>
+
+  <script>
+    let map;
+
+    function initMap() {
+      map = new google.maps.Map(document.getElementById("map"), {
+        center: { lat: -8.0543586, lng: -34.8680777},
+        zoom: 15,
+      });
+    }
+
+    window.initMap = initMap;
   </script>
 
 </body>
@@ -48,16 +73,16 @@
   </div>
   <div class="escala-mapa">
     <div id="wrap">
-        <img loading="lazy" src="assets\icons\pesquisa.svg" alt="pesquisar" >
-        <form action="" autocomplete="on">
-            <input id="search" name="search" type="text" placeholder="Rio Capibaribe"><input id="search_submit"
-                value="Rechercher" type="submit">
-        </form>
-        </img>
+      <img loading="lazy" src="assets\icons\pesquisa.svg" alt="pesquisar">
+      <form action="" autocomplete="on">
+        <input id="search" name="search" type="text" placeholder="Rio Capibaribe"><input id="search_submit"
+          value="Rechercher" type="submit">
+      </form>
+      </img>
     </div>
   </div>
 
-  
+
 </nav>
 
 </html>

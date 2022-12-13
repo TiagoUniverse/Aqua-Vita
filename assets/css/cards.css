@@ -90,7 +90,7 @@ body {
 }
 
 
-.mapaiframe iframe {
+.mapa-google {
     width: 100%;
     height: 96%;
     position: fixed;
@@ -291,16 +291,18 @@ body {
 
 .botao-salvar {
     height: 50px;
-    width: 100%;
+    width: 50%;
     background-color: #0378A6;
     border: none;
     border-radius: 15px;
+
 }
 
 .botao-salvar p {
     color: #ffffff;
     font-family: 'Hind Colombo';
     font-size: 18px;
+
 }
 
 .grf-box {

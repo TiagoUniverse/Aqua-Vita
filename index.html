@@ -15,20 +15,6 @@
   <link href="assets/img/logo.webp" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.gstatic.com" rel="preconnect">
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
-  <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-
 
   <!-- Template Main CSS File -->
   <link href="assets/css/cards.css" rel="stylesheet">
@@ -50,20 +36,19 @@
   <img loading="lazy" class="logo-img" src="assets/img/logo.webp" width="500" height="500" alt="Logo da Aqua Vita">
 
 
-  <div class="pt-4 pb-2">
+  <div class="">
     <h3>Aplicativo de monitoramento de água</h3>
-    <h5 class="card-title text-center pb-0 fs-4">Acesse sua Conta</h5>
-    <p class="text-center small">Insira usuário e senha</p>
+    <h5>Acesse sua Conta</h5>
+    <p>Insira usuário e senha</p>
   </div>
 
-  <form class="row g-3 needs-validation" novalidate action="home.html">
+  <form novalidate action="home.html">
 
     <div class="col-12">
-      <label for="yourUsername" class="form-label" p style="color:#0378A6">Usuário</label>
-      <div class="input-group has-validation">
-        <span class="input-group-text" id="inputGroupPrepend">@</span>
-        <input type="text" name="username" class="form-control" id="yourUsername" required>
-        <div class="invalid-feedback">Por favor, insira seu email de usuário</div>
+      <label for="yourUsername" p style="color:#0378A6">Usuário</label>
+      <div>
+        <input type="text" name="username" id="yourUsername" required>
+        <div class="invalid-feedback">Por favor, insira seu nome  de usuário</div>
       </div>
     </div>
 
@@ -80,7 +65,9 @@
       </div>
     </div>
     <div class="col-12">
-      <button class="btn btn-primary w-100" type="submit">Login</button>
+      <div class="botao-login">
+        <button class="fundo-botao" type="submit">Login</button>
+      </div>
     </div>
     <div class="regbutton">
       <a href="registrar.html">Cadastrar</a>

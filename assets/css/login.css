@@ -21,3 +21,21 @@ body {
     height: 143px;
   }
 }
+
+.botao-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0378A6;
+  border-radius: 2vh;
+  box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
+  height: 4vh;
+  min-height: 40px;
+  width: 40vw;
+  margin-left: 20%;
+}
+.fundo-botao{
+  background-color: #0378A6;
+  border: 0px;
+  color: white;
+}
