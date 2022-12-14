@@ -32,7 +32,7 @@ body {
   height: 4vh;
   min-height: 40px;
   width: 40vw;
-  margin-left: 20%;
+  margin: auto;
 }
 .fundo-botao{
   background-color: #0378A6;

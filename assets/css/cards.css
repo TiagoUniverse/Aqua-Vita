@@ -383,11 +383,16 @@ body {
     border-radius: 5%;
     padding: 5%;
 }
+
 .titulo-login{
     
     font-family: "Poppins", sans-serif;
     justify-content: center;
     text-align: center
+}
+
+.titulo-login {
+    font-size: large;
 }
 
 .col-12 {
