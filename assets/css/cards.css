@@ -1,5 +1,15 @@
 body {
-    margin: auto;
+    display: grid;
+    place-content: center;
+    justify-items: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 1rem;
+    line-height: 1.5;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+    color: #0378A6;
+    background-color: #ffffff;
 }
 
 .cabecalho {
@@ -47,7 +57,7 @@ body {
     margin: 0;
     padding: 1rem;
     line-height: 1.5;
-    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+    font-family: "Poppins", sans-serif;
     color: #0378A6;
     background-color: #ffffff;
 }
@@ -115,7 +125,8 @@ body {
 }
 
 .dadosperfil a {
-    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+    font-family: "Poppins", sans-serif;
+
     font-size: 2.1vh;
     margin-left: 10vw;
 }
@@ -125,12 +136,14 @@ body {
 }
 
 .dadosperfil h3 {
-    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+    font-family: "Poppins", sans-serif;
+
     margin-left: 10vw;
 }
 
 .dadosperfil input {
-    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+    font-family: "Poppins", sans-serif;
+
     font-size: 2.5vh;
     font-weight: 100;
     width: 80vw;
@@ -421,3 +434,23 @@ body {
 .regbutton {
     text-align: right;
 }
+
+.dadosperfil {
+    justify-content: center;
+    align-items: center;
+    font-family: "Play", sans-serif;
+}
+
+.container-criar {
+    width: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.botoes-criar-editar {
+    align-content: center;
+    justify-content: center;
+    
+
+}
+
