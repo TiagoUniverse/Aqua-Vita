@@ -1,16 +1,19 @@
-# Aqua-Vita
+<center> <h1>Projeto integrador: Aqua Vitta 💧 </h1> <hr> </center>
+<center> <p> Versão desenvolvida em PWA </p> </center>
 
+<br>
+Seja Bem vindo ao README da Aqua Vitta versão PWA. Logo abaixo se encontra as instruções e informações a respeito do processo de desenvolvimento deste projeto.
+
+<br>
 
 ## ➡️Introdução
 
-Aires (Monitoramento da Qualidade da Água): É uma empresa de monitoramente e qualidade de água que possui um conjunto de sensores que enviam dados para um endereço ip predeterminado utilizando socket. Atualmente a empresa possui um servidor é um programa python que coleta esses dados, os organiza em gráficos e registra este arquivo no formato log. Entratanto, eles não possuem uma interface mobile e Para usar em seria interessante ter um aplicativo para trabalho em campo que crie um access point e funcione como um datalogger para esses sensores 
-
-Tendo isso em mente, foi-se planejado um projeto integrador em parceria com alunos do 3ª período da faculdade SENAC de análise e desenvolvimento de sistemas.
+Quando se trata de cadastro e monitoramento de pontos de rios, muitas aplicações trabalham de forma física e dependente do uso de um computador. Isso resulta em atraso na entrega dos dados e perda de eficiência do tempo, além da dificuldade para atualizar os registros de pontos de rios. Diante dessa problemática de falta de mobilidade, nossa equipe do 3ª período foi contatada para desenvolver uma solução mobile para salvar os rios e seus dados.
 
 ---
 
-## 🎯 Objetivo
-Levantamento de apps para monitoramento de qualidade de água de rios e reservatórios
+## 🎯 Objetivo do projeto
+Desenvolver um aplicativo mobile para registrar e monitorar os pontos, com telas navegáveis de fácil acesso.
 
 ## Link
 https://aquavitta.netlify.app/
