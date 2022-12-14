@@ -14,11 +14,11 @@ self.addEventListener('install', event => {
 
       './home.html' ,
 
-      './home.html' ,
-
       './mapa.html' ,
       
       './usuario.html' ,
+
+      './index.html',
 
       'assets/img/fotos/rio-1.webp',
 

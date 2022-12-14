@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dashboards</title>
+    <link href="assets/css/cards.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets\css\navbar.css">
+    <link href='https://fonts.googleapis.com/css?family=Play' rel='stylesheet' />
+    <link rel="manifest" href="manifest.json">
+
+</head>
+
+<body>
+
+    <div class="titulo-dashboards">
+        <div id = "demo" class="nome"><span>Rio Capibaribe</span></div>
+        <div class="lugar"><span>Recife</span></div>
+    </div>
+
+
+    <script>
+        async function puxar(){
+            let result = await fetch('https://aquavitta1.pythonanywhere.com/leitura/teste8');
+            let apiResponse = await result.json();   
+            document.getElementById('demo').innerHTML = JSON.stringify(apiResponse.rio);
+        }
+        
+        puxar()
+    </script>
+
+
+</body>
+
+</html>
