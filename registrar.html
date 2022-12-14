@@ -37,29 +37,33 @@
 
     <form onsubmit="cadastrarUsuario()" class="row g-3 needs-validation">
 
+      <br>
+
       <div class="col-12">
         <label for="yourUsername" class="form-label">Nome</label>
-        <input type="text" name="username" class="form-control" id="nome">
+        <input type="text" name="username" class="form-control" id="nome" placeholder="Insira um nome de usuário">
       </div>
 
       <div class="col-12">
         <label for="yourUsername" class="form-label" p style="color:#0378A6">Email</label>
 
         <div class="input-group has-validation">
-          <input type="text" name="username" class="form-control" id="email">
+          <input type="text" name="username" class="form-control" id="email" placeholder="Insira seu email">
         </div>
       </div>
 
+
       <div class="col-12">
         <label for="yourPassword" class="form-label">Senha</label>
-        <input type="password" name="password" class="form-control" id="senha">
-      </div>
-      <div class="col-12">
-        <label for="yourPassword" class="form-label">Repita a Senha</label>
-        <input type="password" name="password" class="form-control" id="yourPassword">
+        <input type="password" name="password" class="form-control" id="senha" placeholder="Insira uma senha">
       </div>
 
-      <div class="espacinho"></div>
+      <div class="col-12">
+        <label for="yourPassword" class="form-label">Repita a Senha</label>
+        <input type="password" name="password" class="form-control" id="yourPassword" placeholder="Repetir senha">
+      </div>
+
+      <br>
 
       <div class="col-12">
       <div class="botao-login">
@@ -67,9 +71,9 @@
       </div>
       </div>
 
-      <div class="espacinho"></div>
+      <br>
 
-      <div class="regbutton">
+      <div class="regbutton" style="text-align: center;">
         <a href="index.html">Fazer login</a>
       </div>
     </form>
